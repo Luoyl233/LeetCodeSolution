@@ -19,7 +19,7 @@
 using namespace std;
 
 
-#define LEET_CODE 47
+#define LEET_CODE 57
 
 
 

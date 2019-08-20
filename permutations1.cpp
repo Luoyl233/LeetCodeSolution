@@ -20,9 +20,9 @@ public:
             res.push_back(nums);
         } else {
             for (int i=0; i <= curIndex; i++) {
-            swap(nums[i], nums[curIndex]);
-            backtrack(nums, res, curIndex+1);
-            swap(nums[i], nums[curIndex]);
+                swap(nums[i], nums[curIndex]);
+                backtrack(nums, res, curIndex+1);
+                swap(nums[i], nums[curIndex]);
             }
         }
     }

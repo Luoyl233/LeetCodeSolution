@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 2.8)
 project(Top-100-Liked-Questions)
 
 # define which problem we want to run
-add_definitions(-DLEET_CODE=141)
+add_definitions(-DLEET_CODE=10)
 
 include_directories(${PROJECT_SOURCE_DIR}/include)
 
